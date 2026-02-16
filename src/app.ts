@@ -4,6 +4,7 @@ import mongoose from "mongoose";
 import passport = require('passport');
 import AppError = require("./utils/appError");
 import { registerSchemas } from "./models/client.model";
+import { refreshDemoVisitDates } from "./utils/refreshDemoVisitDates";
 const Employee = require("./models/employee.model");
 
 /*
@@ -103,9 +104,10 @@ class App {
 			// connect to database + register models/schemas
 			await mongoose.connect(dbUrl);
 			const db = mongoose.connection;
-			db.once("open", () => {
+			db.once("open", async () => {
 				console.log("Database connected.");
 				registerSchemas();
+				await refreshDemoVisitDates();
 			});
 		} catch (error) {
 			console.error(error);
