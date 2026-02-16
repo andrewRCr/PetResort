@@ -76,7 +76,7 @@ const guestVisitsSeed = [
 			// CURRENT
 			{
 				startDate: "2024-3-4",
-				endDate: "2023-3-18",
+				endDate: "2024-3-18",
 				assignedKennel: "6",
 				paid: true,
 				checkedIn: true,
