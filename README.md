@@ -1,7 +1,9 @@
 # PetResort
 
-[![CI](https://github.com/andrewRCr/PetResort/actions/workflows/ci.yml/badge.svg)](https://github.com/andrewRCr/PetResort/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+<p align="center">
+  <a href="https://github.com/andrewRCr/PetResort/actions/workflows/ci.yml"><img src="https://github.com/andrewRCr/PetResort/actions/workflows/ci.yml/badge.svg?branch=main" alt="CI" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" /></a>
+</p>
 
 An employee web portal for managing pet boarding and grooming operations, built with
 TypeScript across the full Express and MongoDB stack. Six domain models — Guests, Clients,
@@ -11,7 +13,7 @@ covers the full operational cycle: scheduling with kennel assignment, check-in a
 with occupancy tracking, per-service completion logging, and computed billing.
 
 <p align="center">
-  <a href="https://pet-resort.andrewcreekmore.com">Live Demo</a>
+  <a href="https://pet-resort.andrewcreekmore.dev">Live Demo</a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="https://andrewcreekmore.dev/projects/software/petresort">Portfolio</a>
 </p>
