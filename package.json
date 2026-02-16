@@ -9,6 +9,9 @@
     "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/server.js\"",
     "lint": "eslint src/"
   },
+  "engines": {
+    "node": "20.x"
+  },
   "author": "Andrew Creekmore",
   "license": "MIT",
   "dependencies": {
